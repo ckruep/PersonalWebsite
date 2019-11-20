@@ -4,14 +4,31 @@ html {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, serif;
 }
 
 header {
-    font-family: ;
+    font-family: futura-pt, sans-serif;
 }
 
-.flex-container {
+#site-banner {
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    width: 100%;
+    background-color: #06274f;
+    margin-bottom: 2em;
+}
+
+#site-banner a {
+    color: white;
+    font-size: 2em;
+    margin-top: .33em;
+    align-content: center;
+    padding-right: 3em;
+}
+
+#main-block {
     display: flex;
     flex-direction: row;
 }
