@@ -8,7 +8,7 @@ html {
 }
 
 header {
-    font-family: futura-pt, sans-serif;
+    font-family: Futura, sans-serif;
 }
 
 #site-banner {
@@ -23,7 +23,6 @@ header {
 #site-banner a {
     color: white;
     font-size: 2em;
-    margin-top: .33em;
     align-content: center;
     padding-right: 2em;
     padding-left: 0.5em;

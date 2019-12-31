@@ -8,7 +8,7 @@ html {
 }
 
 header {
-    font-family: futura-pt, sans-serif;
+    font-family: Futura, sans-serif;
 }
 
 #site-banner {
@@ -23,32 +23,41 @@ header {
 #site-banner a {
     color: white;
     font-size: 2em;
-    margin-top: .33em;
     align-content: center;
     padding-right: 2em;
     padding-left: 0.5em;
     text-decoration: none;
 }
 
-#main-block {
+.nav-buttons {
+    background-color: #06274f;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    font-size: 20px;
+    border: solid #06274f;
+    transition-duration: 0.4s;
+    margin-bottom: 0.5em;
+    font-family: Futura, sans-serif;
+}
+
+.nav-buttons:hover {
+    background-color: white;
+    color: #06274f;
+}
+
+#blog-navigator {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
-a {
-    color:#C8102E;
+#blog-header {
+    font-family: Futura, sans-serif;
 }
 
-#bio {
-    margin: 25px;
+#blog-content {
+
 }
-
-#importantLinks {
-    text-align: center;
-    margin-top: 93px; 
-    padding: 5px;
-    border-style: dashed;
-}
-
-
-
