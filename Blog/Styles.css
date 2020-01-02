@@ -41,6 +41,7 @@ header {
     transition-duration: 0.4s;
     margin-bottom: 0.5em;
     font-family: Futura, sans-serif;
+    text-decoration: none;
 }
 
 .nav-buttons:hover {
@@ -54,10 +55,33 @@ header {
     justify-content: center;
 }
 
+.blog-post {
+    border: solid #06274f;
+    width: 92%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
 #blog-header {
     font-family: Futura, sans-serif;
+    color: #06274f;
+    margin: 1em; 
+    padding-top: 0.25em; 
 }
 
 #blog-content {
-
+    color: #06274f;
+    margin: 1em; 
+    padding-bottom: 0.25em;
+    font-size: 12pt;
 }
+#blog-content h3 {
+    font-family: Futura, sans-serif;
+}
+
+#big-letter {
+    font-size: 2em;
+    white-space: inline;
+}
+
