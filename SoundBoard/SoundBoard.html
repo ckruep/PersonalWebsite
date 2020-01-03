@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="icon" href="../Resources/Images/cashMoney32x32.png">
+        <title>Christian Kruep</title>
+    </head>
+    
+    <body>
+        <!--This whole audio section is a bit unholy looking. 
+            I want to make it cleaner and more efficent at some point-->
+        <audio id="playoffsBite">
+            <source src="SoundBites/Playoffs.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="youLikeThatBite">
+            <source src="SoundBites/YouLikeThat.mp3" type ="audio/mpeg">
+        </audio>
+
+        <audio id="naniBite">
+            <source src="SoundBites/Nani.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="beBackBite">
+            <source src="SoundBites/WellBeRightBack.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="ding-dong">
+            <source src="SoundBites/DingDong.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="faux-dive">
+            <source src="SoundBites/FauxDive.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="football-game">
+            <source src="SoundBites/FootballGame.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="slipper-still-fits">
+            <source src="SoundBites/SlipperStillFits.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="down-frazier">
+            <source src="SoundBites/DownGoesFrazier.mp3" type="audio/mpeg">
+        </audio>
+    
+        <header role="banner">
+            <h1>Christian Kruep </h1>
+            <nav id="site-banner">
+                <a href="../Home/Home.html">About Me</a>
+                <a href="../Blog/Posts/CurrentPost.html">Blog</a>
+            </nav>
+        </header>
+    
+        <div id="sound-board">
+            <h1>Sports</h1>
+            <button class="sound-board-buttons" onclick="playoffsOnClick()" type="button">Playoffs?</button>
+            <button class="sound-board-buttons" onclick="youLikeThatOnClick()" type="button">YOU LIKE THAT?</button>
+            <button class="sound-board-buttons" onclick="dingDongOnClick()" type="button">DING DONG THE WITCH IS DEAD</button>
+            <button class="sound-board-buttons" onclick="footballGameOnClick()" type="button">FOOTBALL GAME</button>
+            <button class="sound-board-buttons" onclick="slipperFitsOnClick()" type="button">Slipper Still Fits</button>
+            <button class="sound-board-buttons" onclick="downFrazierOnClick()" type="button">DOWN GOES FRAZIER!</button>
+            <h1>Movies</h1>
+            <h1>TV</h1>
+            <button class="sound-board-buttons" onclick="fauxDiveOnClick()" type="button">Faux Dive</button>
+            <h1>Memes</h1>
+            <button class="sound-board-buttons" onclick="naniOnClick()" type="button">NANI!</button>
+            <button class="sound-board-buttons" onclick="beBackOnClick()" type="button">Well Be Right Back</button>
+        </div>
+    </body>
+
+
+    <script>
+        var playoffsAudio = document.getElementById("playoffsBite");
+
+        function playoffsOnClick() 
+        {
+            playoffsAudio.play();
+        }
+
+        var youLikeThatAudio = document.getElementById("youLikeThatBite");
+        function youLikeThatOnClick()
+        {
+            youLikeThatAudio.play();
+        }
+
+        var naniAudio = document.getElementById("naniBite");
+        function naniOnClick()
+        {
+            naniAudio.play();
+        }
+        
+        var beBackAudio = document.getElementById("beBackBite");
+        function beBackOnClick()
+        {
+            beBackAudio.play();
+        }
+
+        var dingDongAudio = document.getElementById("ding-dong");
+        function dingDongOnClick()
+        {
+            dingDongAudio.play();
+        }
+
+        var fauxDiveAudio = document.getElementById("faux-dive")
+        function fauxDiveOnClick()
+        {
+            fauxDiveAudio.play();
+        }
+        
+        var footballGameAudio = document.getElementById("football-game");
+        function footballGameOnClick()
+        {
+            footballGameAudio.play();
+        }
+
+        var slipperFitsAudio = document.getElementById("slipper-still-fits");
+        function slipperFitsOnClick()
+        {
+            slipperFitsAudio.play();
+        }
+
+        var downFrazierAudio = document.getElementById("down-frazier");
+        function downFrazierOnClick()
+        {
+            downFrazierAudio.play();
+        }
+
+        
+        
+    
+
+    </script>
+</html>
