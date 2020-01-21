@@ -49,13 +49,13 @@ header {
     color: #06274f;
 }
 
-#blog-navigator {
+#column-navigator {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.blog-post {
+.column-post {
     border: solid #06274f;
     width: 92%; 
     margin-left: auto;
@@ -63,20 +63,20 @@ header {
     margin-top: 1em;
 }
 
-#blog-header {
+#column-header {
     font-family: Futura, sans-serif;
     color: #06274f;
     margin: 1em; 
     padding-top: 0.25em; 
 }
 
-#blog-content {
+#column-content {
     color: #06274f;
     margin: 1em; 
     padding-bottom: 0.25em;
     font-size: 12pt;
 }
-#blog-content h3 {
+#column-content h3 {
     font-family: Futura, sans-serif;
 }
 
