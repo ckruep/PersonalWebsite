@@ -25,6 +25,7 @@ header, h2 {
     align-content: center;
     padding-right: 2em;
     padding-left: 0.5em;
+    text-decoration: none;
 }
 
 h3 {
@@ -65,16 +66,10 @@ h3 {
     justify-content: center;
     outline: solid;
     padding: 1em;
-    color: #06274f;
-    text-decoration: none;
 }
 
 .portfolio-item p {
     margin-top: 0em;
-}
-
-a {
-    text-decoration: none;
 }
 
 
