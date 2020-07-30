@@ -42,11 +42,15 @@ a {
     margin: 25px;
 }
 
-#importantLinks {
+footer {
     text-align: center;
-    margin-top: 93px; 
+    margin-top: 20px; 
     padding: 5px;
-    border-style: dashed;
+    border-style: solid;
+}
+
+footer a {
+    margin-bottom: 5px;
 }
 
 
