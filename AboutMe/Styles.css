@@ -34,6 +34,10 @@ header {
     flex-direction: row;
 }
 
+#main-block h3 {
+    text-align: center;
+}
+
 a {
     color:#C8102E;
 }

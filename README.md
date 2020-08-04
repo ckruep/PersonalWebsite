@@ -1,4 +1,11 @@
-# PersonalWebsite
-This here is the code for my personal website. I hope to add to this as I learn more about web development.
-Currently I am hosting the website using Google Firebase.  
-You can find the site here: https://christiankruep.com/
+christiankruep.com
+==================
+
+christiankruep.com is my own personal website. It is written in HTML & CSS all done by myself. Currently it features a about me section and a column that I periodically update. I aim to add to my site as I continually learn more about web development. 
+
+The website is hosted using <a href="https://firebase.google.com/">Google Firebase </a>
+
+
+Support
+-------
+If you come across any issues with the site or notice any spelling errors email me at christiankruep@me.com
