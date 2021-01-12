@@ -1,9 +1,12 @@
-christiankruep.com
-==================
 
-christiankruep.com is my own personal website. It is written in HTML & CSS all done by myself. Currently it features a about me section and a column that I periodically update. I aim to add to my site as I continually learn more about web development. 
+<h1 align="center">christiankruep.com</h1>
+<h3 align ="center">My Online Hombase</h3>
+<br>
 
-The website is hosted using <a href="https://firebase.google.com/">Google Firebase </a>
+christiankruep.com is my own personal website. This version of the site is all handmade, written by myself in cutting edge of HTML and CSS. Currently it features an About Me page, a column that I update periodically and a photo gallery. I aim to update the sites design as I learn more about web development.
+
+Currently the webiste is hosted using <a href="https://aws.amazon.com/s3/">AWS S3</a>.
+
 
 
 Support
